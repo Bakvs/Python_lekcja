@@ -27,7 +27,7 @@ def main():
         print("Twój wybór: " + gracz)
         print("Wybor komputera: " + komputer)
         print(gra(gracz, komputer))
-        play_again = input("Czy chcesz zagrać jeszcze raz? : ")
+        play_again = input("Czy chcesz zagrać jeszcze raz? (tak/nie): ")
         if play_again == "tak":
             return main()
         else:
