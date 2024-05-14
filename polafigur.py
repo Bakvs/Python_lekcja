@@ -21,7 +21,7 @@ def romb():
 
 def kolo():
     r = int(input("Podaj długośc promienia koła: "))
-    return math.pi * r ** 2
+    return math.pi * (r ** 2)
 
 def rownoleglobok():
     a = int(input("Podaj długość podstawy równoległoboku: "))
